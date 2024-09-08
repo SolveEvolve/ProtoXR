@@ -7,8 +7,8 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: OnScreenScene
-  m_Shader: {fileID: 4800000, guid: 60b836cdf937acc4db34576090b24f7b, type: 3}
+  m_Name: OnScreenSceneMask
+  m_Shader: {fileID: 4800000, guid: 106e20f936e7e76428d9c27d7ca9a50c, type: 3}
   m_ValidKeywords: []
   m_InvalidKeywords: []
   m_LightmapFlags: 4
