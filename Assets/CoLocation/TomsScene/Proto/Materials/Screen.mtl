@@ -1,0 +1,12 @@
+# Blender 4.1.1 MTL File: 'VP_Studio_MR.blend'
+# www.blender.org
+
+newmtl Screen
+Ns 383.372681
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 1
+map_Kd D:/VP Studio/Blender/textures/Screen.png
+map_Ke D:/VP Studio/Blender/textures/Screen.png
