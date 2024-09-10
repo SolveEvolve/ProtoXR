@@ -13,8 +13,12 @@ public class SyncScreenCamera : MonoBehaviour
 
     void Update()
     {
-        cameraTarget.transform.position = cameraSource.transform.position;
+        // Apply the offset to the camera's position
+        cameraTarget.transform.position = cameraSource.transform.position + roomOffset;
+
+        // Copy rotation and field of view from the source camera
         cameraTarget.transform.rotation = cameraSource.transform.rotation;
         cameraTarget.fieldOfView = cameraSource.fieldOfView;
+
     }
 }
