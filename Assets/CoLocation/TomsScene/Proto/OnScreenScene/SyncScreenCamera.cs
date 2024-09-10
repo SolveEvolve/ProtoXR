@@ -2,14 +2,19 @@ using UnityEngine;
 
 public class SyncScreenCamera : MonoBehaviour
 {
-    public Camera mainCamera; // Reference to the OVR camera (right eye anchor)
-    public Camera secondWorldCamera; // Reference to the second camera
-    public Vector3 worldOffset = new Vector3(0, 0, -100); // Offset for the second world
+    // Reference to the right eye camera from the OVR rig (room 1)
+    public Camera cameraSource;
 
-    void LateUpdate()
+    // Reference to the second camera in room 2 (room at z = -100)
+    public Camera cameraTarget;
+
+    // Offset between room 1 and room 2 (this is -100 on the Z-axis)
+    public Vector3 roomOffset = new Vector3(0, 0, -100);
+
+    void Update()
     {
-        // Sync position and rotation
-        secondWorldCamera.transform.position = mainCamera.transform.position + worldOffset;
-        secondWorldCamera.transform.rotation = mainCamera.transform.rotation;
+        cameraTarget.transform.position = cameraSource.transform.position;
+        cameraTarget.transform.rotation = cameraSource.transform.rotation;
+        cameraTarget.fieldOfView = cameraSource.fieldOfView;
     }
 }
