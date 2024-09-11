@@ -7319,7 +7319,7 @@ Camera:
   m_Depth: 0
   m_CullingMask:
     serializedVersion: 2
-    m_Bits: 4294967295
+    m_Bits: 55
   m_RenderingPath: -1
   m_TargetTexture: {fileID: 8400000, guid: b4f9ef1534ec863448ff593b2970cc89, type: 2}
   m_TargetDisplay: 0
@@ -7339,7 +7339,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 728177693}
   m_LocalRotation: {x: -0, y: 1, z: -0, w: 0}
-  m_LocalPosition: {x: 0, y: 0, z: -100}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -7360,7 +7360,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cameraSource: {fileID: 56690716}
   cameraTarget: {fileID: 728177695}
-  roomOffset: {x: 0, y: 0, z: -100}
+  roomOffset: {x: 0, y: 0, z: 0}
+  syncFieldOfView: 1
 --- !u!1 &750576273
 GameObject:
   m_ObjectHideFlags: 0
@@ -19978,7 +19979,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5414912244174007119, guid: 60fa00281e83b294583adc31df520fbe, type: 3}
       propertyPath: m_CullingMask.m_Bits
-      value: 23
+      value: 1047
       objectReference: {fileID: 0}
     - target: {fileID: 5414912244175157427, guid: 60fa00281e83b294583adc31df520fbe, type: 3}
       propertyPath: m_Name
@@ -20041,12 +20042,24 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5432093320130169601, guid: 60fa00281e83b294583adc31df520fbe, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5432093320130169601, guid: 60fa00281e83b294583adc31df520fbe, type: 3}
       propertyPath: m_CullingMask.m_Bits
-      value: 23
+      value: 1047
+      objectReference: {fileID: 0}
+    - target: {fileID: 5432093322171405467, guid: 60fa00281e83b294583adc31df520fbe, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5432093322171405467, guid: 60fa00281e83b294583adc31df520fbe, type: 3}
+      propertyPath: m_FOVAxisMode
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5432093322171405467, guid: 60fa00281e83b294583adc31df520fbe, type: 3}
       propertyPath: m_CullingMask.m_Bits
-      value: 23
+      value: 1047
       objectReference: {fileID: 0}
     - target: {fileID: 5837385359650334041, guid: 60fa00281e83b294583adc31df520fbe, type: 3}
       propertyPath: m_RootOrder
@@ -36617,7 +36630,7 @@ GameObject:
   - component: {fileID: 2823090747950798404}
   - component: {fileID: 1542338334}
   - component: {fileID: 1542338333}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: default
   m_TagString: Untagged
   m_Icon: {fileID: 0}

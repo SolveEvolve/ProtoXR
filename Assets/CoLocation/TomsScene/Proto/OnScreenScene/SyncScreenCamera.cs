@@ -11,6 +11,8 @@ public class SyncScreenCamera : MonoBehaviour
     // Offset between room 1 and room 2 (this is -100 on the Z-axis)
     public Vector3 roomOffset = new Vector3(0, 0, -100);
 
+    public bool syncFieldOfView = true;
+
     void Update()
     {
         // Apply the offset to the camera's position
@@ -18,7 +20,12 @@ public class SyncScreenCamera : MonoBehaviour
 
         // Copy rotation and field of view from the source camera
         cameraTarget.transform.rotation = cameraSource.transform.rotation;
-        cameraTarget.fieldOfView = cameraSource.fieldOfView;
+
+        if (syncFieldOfView)
+        {
+            cameraTarget.fieldOfView = cameraSource.fieldOfView;
+            cameraTarget.aspect = cameraSource.aspect;
+        }
 
     }
 }
