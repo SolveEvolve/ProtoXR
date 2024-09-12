@@ -1,0 +1,62 @@
+# Blender 4.1.1 MTL File: 'VP_Studio_MR.blend'
+# www.blender.org
+
+newmtl Material
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.011088 0.011088 0.011088
+Ks 0.231959 0.231959 0.231959
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+
+newmtl Material.009
+Ns 535.763611
+Ka 0.597938 0.597938 0.597938
+Kd 0.350555 0.350555 0.350555
+Ks 0.788660 0.788660 0.788660
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 3
+
+newmtl Unit_1.002
+Ns 5.938278
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ni 0.000000
+d 1.000000
+illum 1
+map_Kd D:/VP Studio/Textures/UnitS_Update.png
+map_Ke D:/VP Studio/Textures/UnitS_Update.png
+
+newmtl Unit_2
+Ns 5.938278
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ni 0.000000
+d 1.000000
+illum 1
+map_Kd D:/VP Studio/Textures/UnitS_Update.png
+map_Ke D:/VP Studio/Textures/UnitS_Update.png
+
+newmtl Unit_3
+Ns 5.938278
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ni 0.000000
+d 1.000000
+illum 1
+map_Kd D:/VP Studio/Textures/UnitS_Update.png
+map_Ke D:/VP Studio/Textures/UnitS_Update.png
+
+newmtl Unit_Top
+Ns 5.938278
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ni 0.000000
+d 1.000000
+illum 1
+map_Kd D:/VP Studio/Blender/textures/Unit 1.png
+map_Ke D:/VP Studio/Blender/textures/Unit 1.png

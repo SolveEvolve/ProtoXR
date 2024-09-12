@@ -1,0 +1,12 @@
+# Blender 4.1.1 MTL File: 'VP_Studio_MR.blend'
+# www.blender.org
+
+newmtl Backdrop
+Ns 115.740265
+Ka 1.000000 1.000000 1.000000
+Kd 0.954398 0.899791 0.845528
+Ks 0.819930 0.819930 0.819930
+Ke 0.425556 0.425556 0.425556
+Ni 1.450000
+d 1.000000
+illum 2

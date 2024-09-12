@@ -1,0 +1,32 @@
+# Blender 4.1.1 MTL File: 'VP_Studio_MR.blend'
+# www.blender.org
+
+newmtl Plugs
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+
+newmtl Truss
+Ka 1.000000 1.000000 1.000000
+Kd 0.061006 0.061006 0.061006
+Ke 0.001547 0.001547 0.001547
+Ni 1.450000
+d 1.000000
+illum 2
+map_Ks D:/VP Studio/Blender/textures/TexturesCom_Overlay_Scuffs_4K_overlay (7).tif
+map_Ns D:/VP Studio/Blender/textures/TexturesCom_Overlay_Scuffs_4K_overlay (7).tif
+
+newmtl Truss_Conector
+Ns 784.489807
+Ka 0.257143 0.257143 0.257143
+Kd 0.410939 0.410939 0.410939
+Ks 0.307143 0.307143 0.307143
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 3
