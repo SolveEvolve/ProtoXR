@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.18377565, g: 0.22912948, b: 0.3043744, a: 1}
+  m_IndirectSpecularColor: {r: 0.17276844, g: 0.21589246, b: 0.2978263, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -3658,6 +3658,14 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 3798bc71483b4c049932d2df50e9e942, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7635826562936255635, guid: 3798bc71483b4c049932d2df50e9e942, type: 3}
+      propertyPath: m_CastShadows
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -7635826562936255635, guid: 3798bc71483b4c049932d2df50e9e942, type: 3}
+      propertyPath: m_ReceiveShadows
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: -7635826562936255635, guid: 3798bc71483b4c049932d2df50e9e942, type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -18941,6 +18949,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Door_B
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: b205aebc7e7d6f448b8ac277008d899b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 8164078558771037576, guid: b205aebc7e7d6f448b8ac277008d899b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b205aebc7e7d6f448b8ac277008d899b, type: 3}
 --- !u!4 &1263464326 stripped
@@ -28912,14 +28928,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5446279960952082354}
-  m_LocalRotation: {x: 0.2728243, y: 0.14620358, z: -0.03389906, w: 0.95028543}
+  m_LocalRotation: {x: 0.70710677, y: 0, z: 0, w: 0.70710677}
   m_LocalPosition: {x: -1.4436779, y: 2.5313692, z: 1.3480434}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 8873166861393741876}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 31.9, y: 17.789, z: 1.036}
+  m_LocalEulerAnglesHint: {x: 90, y: 90, z: 90}
 --- !u!23 &767158806360394945
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -30514,7 +30530,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: ee9f53df5522c3f4f96f1a43e60b79e6, type: 2}
+  - {fileID: 2100000, guid: e544f825ed55c864dbcb3c6006751081, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -31970,17 +31986,17 @@ Light:
   serializedVersion: 10
   m_Type: 1
   m_Shape: 0
-  m_Color: {r: 1, g: 0.991121, b: 0.9496855, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_Intensity: 0.8
   m_Range: 10
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
   m_CookieSize: 10
   m_Shadows:
-    m_Type: 0
+    m_Type: 2
     m_Resolution: -1
     m_CustomResolution: -1
-    m_Strength: 0.247
+    m_Strength: 0.087
     m_Bias: 0.05
     m_NormalBias: 0.4
     m_NearPlane: 0.2
