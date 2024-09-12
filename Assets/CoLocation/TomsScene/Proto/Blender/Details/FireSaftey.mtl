@@ -1,0 +1,12 @@
+# Blender 4.1.1 MTL File: 'VP_Studio_MR.blend'
+# www.blender.org
+
+newmtl Proto_VP_Details_A
+Ns 0.743800
+Ka 1.000000 1.000000 1.000000
+Ks 0.081818 0.081818 0.081818
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd D:/VP Studio/Textures/Proto_VP_Details_A.png
+map_Ke D:/VP Studio/Textures/Proto_VP_Details_A.png
