@@ -3,7 +3,22 @@ guid: d8179d2f83edfcb48adf5a9f770ec434
 ModelImporter:
   serializedVersion: 21300
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Plugs
+    second: {fileID: 2100000, guid: 3822b010e04ee96419223a4608de047e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Truss
+    second: {fileID: 2100000, guid: 7f04dda4f992ab94887fcfbd0f8b7cf7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Truss_Conector
+    second: {fileID: 2100000, guid: 4b3e38cfbbaf3a64190ac957519a97bb, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
